@@ -1,0 +1,350 @@
+/* common classess */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-justify-center{
+  justify-content: center;
+}
+
+.flex-justify-start{
+  justify-content: flex-start;
+}
+
+.flex-justify-end{
+  justify-content: flex-end;
+}
+
+.flex-justify-space-between{
+  justify-content: space-between;
+}
+
+.flex-justify-space-around{
+  justify-content: space-around;
+}
+
+.flex-align-items-center{
+  align-items: center;
+}
+
+.remove-default{
+  list-style: none;
+  margin-bottom: 0;
+}
+
+#header{
+
+}
+
+/* sub header styles (first row) */
+.sub-header-container {
+  background-color: #08465f;
+
+}
+
+.sub-header {
+  width: 1030px;
+  height: 30px;
+ 
+}
+
+.social-icon{
+  padding-right: 20px;
+}
+
+.nav-sub-menu ul li{
+  padding-left: 15px;
+}
+
+.nav-sub-menu ul li a i:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social_bookmarks ul li a i{
+  color: #37bbf0;
+  font-size: 13px; 
+  font-weight: bold;
+}
+
+.nav-sub-menu ul li a i{
+   color: #37bbf0;
+   font-size: 13px; 
+   font-weight: bold;
+}
+/*------Sub Header styles finished-------*/
+
+/* Main header styles start*/
+
+.main-header-container {
+  background-color: #08506c;
+
+}
+
+.main-header{
+  width: 1030px;
+  height: 88px;
+  position: relative;
+}
+
+#title-logo img {
+  height: auto;
+  width: auto;
+}
+
+.nav-main-menu ul{
+  height: 100%;
+}
+
+.nav-main-menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-main-menu ul li:last-child{
+  padding-right: 0;
+  padding-left: 13px;
+}
+
+.menu-item{
+  align-items: center;
+  padding: 0 13px;
+}
+
+#webdesign-title{
+  border-bottom: 2px solid #37bbf0;
+}
+
+#webdesign-title ul li,#webdesign-title ul li span
+{
+  padding-bottom: 10px;
+}
+
+.menu-item:hover{
+  background-color: #37bbf0;
+  cursor: pointer;
+}
+
+.flying-menu{
+  padding: 15px;
+  display: none;
+  position: absolute;
+  border-top: 2px solid #37bbf0;
+  background-color:  #08465f;
+  max-height: 300px;
+}
+
+#webdesign-title:hover .flying-menu{
+  display: block;
+  width: 100%;
+  top:100%;
+  left: 0px;
+}
+
+
+.flying-menu ul li{
+  padding-left: 15px;
+  color: #37bbf0;
+}
+
+.website-type{
+  flex: 2;
+}
+
+.local-areas{
+  flex: 1;
+}
+
+.services{
+  flex: 1;
+}
+
+.website-type ul{
+  flex-wrap: wrap;
+}
+
+/*to add list-style arrow */
+.website-type ul li:before {
+    content: "\2023 \0020";
+    list-style-position: outside;
+}
+
+.type-list{
+  display: flex;
+  width: 50%;
+}
+
+#whyus-title{
+  position: relative;
+}
+
+#whyus-title:hover .flying-menu{
+  display: block;
+  top: 100%;
+  left:0;
+  width:250px;
+}
+
+.why-list{
+  padding-bottom: 15px;
+}
+
+/*----Main header styles finished------*/
+
+#background-image-div{
+  background-image: url("C:/Users/Mayur/Documents/practice/myPracticeProject/openPotionWebsite/img/hero-jason-bw-dark.jpg");
+  min-height:100%;
+
+}
+
+.heading-content{
+  color: white;
+  margin: 40px;
+  text-align: center;
+}
+
+#youtube-link{
+  width: 500px;
+ height: 250px;
+}
+
+#price-link{
+  margin:10px 15px 50px;
+}
+
+#price-btn{
+  box-shadow: 0 4px 0 0 #8B2121;
+  border: 1px solid red;
+  background-color: #B02B2C;
+  color: white;
+  font-size: 16px;
+  margin: 20px 20px;
+  padding: 15px 30px 13px;
+  border-radius: 3px;
+}
+
+/*---------*/
+.brands-img-heading{
+  text-align: center;
+  margin: 20px;
+}
+
+
+
+
+/*-- carousel styles--*/
+
+.crsl-section{
+  margin: 20px 0;
+}
+
+.stickyHeader{
+  z-index: 100;
+  position:fixed;
+  left:0;
+  right:0;
+}
+
+.empty-div-padding{
+  padding-top: 102px;
+}
+
+.crsl-indicators ol li{
+  background-color: #919191;
+  height: 13.5px;
+  width:13.5px;
+}
+
+.crsl-indicators ol .active{
+  background-color: #0983b3;
+  height: 15px;
+  width: 15px
+}
+
+.crsl-container{
+  margin:0 auto;
+  
+}
+
+#carousel-example-generic{
+  width:100%;
+}
+.five-img-container{
+ height:206px;
+ width:1030px;
+}
+
+.crsl-img-container{
+    width:20% ;
+}
+
+.crsl-img{    
+  width:180px;
+}
+
+/*--speciality ---*/
+.speciality-container {
+  background-color: #37bbf0;
+}
+
+.speciality-heading-content{
+  align-items: center;
+}
+
+.speciality-content{
+  margin: 0 auto;
+  width:1030px;
+  padding: 70px 0;
+  color: #fff;
+}
+
+/*-- Back to Top Btn--*/
+.back-to-top{
+  position:fixed;
+  right:50px;
+  bottom: 50px;
+  border: 2px solid #08506c;
+  color: #fff;
+  background-color: #08465f;
+  width:50px;
+  height:50px;
+  border-radius: 2px;
+}
+
+.back-to-top:hover{
+    z-index: 10000;
+    background-color: #f8f8f8;
+    color: #37bbf0;
+    cursor: pointer;
+    border:1px solid #e1e1e1;
+}
+
+/*chat-pop-up---*/
+.chat-pop-up{
+  z-index: 10050;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #34495e;
+  border-radius: 50%;
+  width: 60px!important;
+  height: 60px!important;
+  background-color: #34495e;
+  color: white;
+}
+
